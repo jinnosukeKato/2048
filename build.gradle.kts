@@ -20,4 +20,7 @@ korge {
     id = "io.github.rezmike.game2048"
     name = "2048"
     icon = file("src/commonMain/resources/korge.png")
+
+    targetJvm()
+    targetJs()
 }
